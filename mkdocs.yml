@@ -1,0 +1,32 @@
+site_name: Kopano4UCS
+copyright: © 2021 Kopano b.v.
+site_author: Kopano4UCS Maintainers
+nav:
+    - Home: index.md
+    - Discussion: "https://github.com/kopano4ucs/kopano4ucs.github.io/discussions"
+    - Wiki: "https://github.com/kopano4ucs/kopano4ucs.github.io/wiki"
+
+# Project source specific:
+repo_name: 'GitHub'
+repo_url: 'https://github.com/kopano4ucs/kopano4ucs.github.io'
+edit_uri: 'edit/main/docs/'
+
+markdown_extensions:
+    - toc:
+        separator: "_"
+        permalink: true
+
+# pip3 install mkdocs-material
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  palette:
+    primary: light blue
+    accent: red
+  font:
+    text: Work Sans
+    code: Menlo
+  custom_dir: 'theme'
